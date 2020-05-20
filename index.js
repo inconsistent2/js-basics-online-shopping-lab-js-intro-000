@@ -68,7 +68,7 @@ function placeOrder(cardNumber) {
       cart=[]
   }
 }
-}
+
 
 function generateItem(itemName){
   return{
