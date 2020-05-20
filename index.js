@@ -56,7 +56,7 @@ function removeFromCart(item) {
       break;}
       }
       return 'That item is not in your cart.'
-  }
+}
 
 
 function placeOrder(cardNumber) {
@@ -65,7 +65,7 @@ function placeOrder(cardNumber) {
   } else {
     return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
     for(var i=0; i<getCart().length; i++){
-      getCart().pop()
+      cart=[]
   }
 }
 }
